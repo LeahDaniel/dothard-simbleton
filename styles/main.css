@@ -1,0 +1,19 @@
+body {
+    margin: 30px
+}
+
+a, input {
+    margin: 20px 10px 10px 0;
+}
+
+.businessList {
+    margin-bottom: 50px;
+}
+
+#businessList--newYork {
+    margin-bottom: 50px;
+}
+
+#businessList--manufacturing {
+    margin-bottom: 50px;
+}

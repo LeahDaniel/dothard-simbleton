@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dothard-Simbleton</title>
+    <link rel="stylesheet" href="styles/main.css"></link>
+</head>
+<body>
+    <header>
+        <h1>Contact List</h1>
+        <a href="#agentSearch">Jump to Agents</a>
+        <a href="#businessList--newYork">Jump to New York Businesses</a>
+        <a href="#businessList--manufacturing">Jump to Manufacturing Businesses</a>
+    </header>
+    <main>
+        <input type="text" placeholder="Enter business name..." id="companySearch" />
+        <article class="foundCompanies"></article>
+        <article class="businessList"></article>
+        <article id="businessList--newYork"></article>
+        <article id="businessList--manufacturing"></article>
+        <input type="text" placeholder="Enter agent first name..." id="agentSearch" />
+        <article class="foundAgents"></article>
+        <article class="agents"></article>
+    </main>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
